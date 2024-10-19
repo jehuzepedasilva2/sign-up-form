@@ -51,8 +51,9 @@ body {
   display: flex;
   font-size: 22px;
   font-weight: 501;
+  padding-top: 20px;
   padding-left: 30px;
-  padding-right: 300px;
+  padding-right: 250px;
   flex-direction: column;
   justify-content: center;
 }
@@ -94,7 +95,7 @@ input {
 
 .right-form {
   flex: 2;
-  padding-top: 65px;
+  padding-top: 66px;
 }
 
 .form-container {
@@ -119,11 +120,17 @@ button {
   width: 180px;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+button:active {
+  opacity: .8;
 }
 
 a {
   color: #596D48;
   font-weight: bold;
+  text-decoration: none;
 }
 
 input:focus {
